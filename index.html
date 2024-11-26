@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Guru</title>
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Profile</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tentangsaya">Tentang Saya</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#jenjangpendidikan">jenjang Pendidikan</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#kontak">Kontak</a>
+              </li>  
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section>
+         <div class="container">
+            <div class="profile">
+            <img  class="rounded-circle" 
+            src="WhatsApp Image 2024-11-26 at 21.44.45_c63c0fb9.jpg">
+            <h2>Novizah S.Pd</h2>
+            <h4>Guru Matematika</h4>
+            </div>
+         </div>
+      </section>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,32L48,74.7C96,117,192,203,288,208C384,213,480,139,576,96C672,53,768,43,864,74.7C960,107,1056,181,1152,181.3C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+
+
+      <!--tentang saya-->
+      <section id="tentangsaya">
+        <div class="tentangsaya">
+          <h1>Tentang Saya</h1>
+          <p>Saya adalah seorang guru matematika yang berdedikasi dalam membantu siswa memahami konsep-konsep matematika secara mendalam dan aplikatif. 
+          <br>Dengan pengalaman mengajar yang luas, saya berusaha menciptakan lingkungan belajar yang inspiratif, menyenangkan, dan penuh motivasi.</p>
+      
+          <h2>Biodataku:</h2>
+          
+          <!-- Button trigger modal for Full Name -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalNama">
+            Nama Lengkap
+          </button>
+      
+          <!-- Modal for Nama Lengkap -->
+          <div class="modal fade" id="modalNama" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Nama Lengkap</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Novizah
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Button trigger modal for Age -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalUmur">
+            Umur
+          </button>
+      
+          <!-- Modal for Umur -->
+          <div class="modal fade" id="modalUmur" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Umur</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  50 Tahun
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Button trigger modal for Hobby -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalHobi">
+            Hobi
+          </button>
+          
+          <!-- Modal for Hobi -->
+          <div class="modal fade" id="modalHobi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Hobi</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Nyanyi
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Button trigger modal for Full Name -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAlamat">
+            Alamat 
+          </button>
+      
+          <!-- Modal for Nama Lengkap -->
+          <div class="modal fade" id="modalAlamat" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Alamat</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                 JLN keluk ratai 5 RT 10, RW1 10, kelapa gading barat jakarta utara           
+               </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+      
+  <!--jenjang Penididkan-->
+      <section id="jenjangpendidikan">
+        <h1 style="text-align: center;">Jenjang Pendidikan</h1>
+        <div class="jenjangpendidikan">
+            <div class="card" style="width: 18rem;">
+                <img src="WhatsApp Image 2024-11-26 at 23.07.32_0174191d.jpg"card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">saya sekolah SD di SDN 01 Pagi Jakarta Pusat.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="WhatsApp Image 2024-11-26 at 23.07.32_af0a5ec9.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">saya sekolah SMP di SMP 228 Jakarta Pusat.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="WhatsApp Image 2024-11-26 at 23.07.32_cdbb78fc.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">saya sekolah SMA di SMA Bahriwan45 Jakarta Utara .</p>
+                </div>
+              </div>
+        </div>
+  </section>
+
+
+  <!--Kontak-->
+  <section id="kontak">
+      <div class="kontak">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+      <footer>
+        copyright  	&#169; 2024
+      </footer>
+    </section>
+</body>
+</html>

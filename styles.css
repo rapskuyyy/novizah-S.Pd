@@ -1,0 +1,88 @@
+body{
+   background: linear-gradient(#9236bd 0%, #dd4c4f 40%, #7420d3 100%);
+   font-family: Verdana;
+  
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    height: 600px;
+}
+.profile img{
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+    border: solid;
+    border-color: #fff;
+}
+.profile h2{
+    color: white;
+}
+.profile h4{
+    color: white;
+    transform: translateY(-10);
+}
+.tentangsaya{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    height: 500px;
+    padding-top: 100px;
+}
+.jenjangpendidikan{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+.card{
+    margin-right: 20px;
+    margin-top: 50px ;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .kontak {
+    margin-top: 400px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 400px;
+  }
+  footer
+  {
+    background-color: gray;
+    text-align: center;
+    height: 100px;
+    padding-top: 50px;
+    font-size: 20pxs;
+  }
